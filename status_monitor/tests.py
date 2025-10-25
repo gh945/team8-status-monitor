@@ -5,3 +5,4 @@ class HomeViewTest(TestCase):
         response=self.client.get(reverse('home'))
         self.assertEqual(response.status_code,200)
         self.assertContains(response, "Welcome to the status monitor")
+        print(response.content.decode())
