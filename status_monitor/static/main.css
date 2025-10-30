@@ -1,0 +1,10 @@
+.header {
+    display: flex;
+}
+
+.header .name{
+    font-size: 1.2em;
+    display: inline;
+    align-items: left;
+    
+}
